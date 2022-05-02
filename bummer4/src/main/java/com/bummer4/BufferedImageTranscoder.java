@@ -1,12 +1,10 @@
-/*
 package com.bummer4;
 import javafx.embed.swing.SwingFXUtils;
-import javafx.swing.SwingFXUtils;
 import org.apache.batik.transcoder.TranscoderException;
 import org.apache.batik.transcoder.TranscoderOutput;
-import org.apache.batik.transcoder.image.*;
-import org.apache.batik.transcoder.*;
-
+import org.apache.batik.transcoder.image.ImageTranscoder;
+import java.awt.image.BufferedImage;
+import javafx.embed.swing.SwingFXUtils;
 public class BufferedImageTranscoder extends ImageTranscoder {
     private BufferedImage img = null;
     @Override
@@ -21,4 +19,3 @@ public class BufferedImageTranscoder extends ImageTranscoder {
         return img;
     }
 }
-*/
