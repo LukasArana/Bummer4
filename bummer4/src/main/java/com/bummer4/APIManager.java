@@ -21,7 +21,7 @@ public class APIManager {
                 result = response.body().string();
             }
         }catch (IOException e){
-            e.printStackTrace();
+            e.printStackTrace();z
         }
 
         return result;
